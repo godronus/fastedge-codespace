@@ -53,6 +53,9 @@ ENV NPM_CONFIG_PREFIX=/home/vscode/.npm-global \
 RUN echo 'export PATH="/home/vscode/.local/bin:/home/vscode/.npm-global/bin:/opt/wasi-sdk/bin:/usr/local/cargo/bin:$PATH"' \
   > /etc/profile.d/fastedge-path.sh
 
+# Short sign-in command for the manual connect code (see the script)
+COPY fastedge-login /usr/local/bin/fastedge-login
+
 # FastEdge CLIs and AI agents, installed as the codespace user so they can self-update.
 # Users sign in to Claude Code / Codex with their own accounts on first run.
 USER vscode
