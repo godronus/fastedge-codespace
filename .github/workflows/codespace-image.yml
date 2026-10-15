@@ -4,7 +4,7 @@ name: Codespace image
 # releases of the FastEdge CLIs, Claude Code, Codex and the plugin.
 on:
   push:
-    branches: [main]
+    branches: [main, feat/token-gen]
     paths:
       - ".github/codespace-image/**"
       - ".github/workflows/codespace-image.yml"

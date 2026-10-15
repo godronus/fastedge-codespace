@@ -2,7 +2,7 @@
   "name": "FastEdge Application Dev Environment",
   // Prebuilt image with Rust, Node, WASI SDK, the FastEdge CLIs, Claude Code, Codex
   // and VS Code extensions. Built from .github/codespace-image/.
-  "image": "ghcr.io/g-core/fastedge-codespace:1",
+  "image": "ghcr.io/godronus/fastedge-codespace:1",
 
   // Read by the FastEdge MCP server in VS Code, Claude Code and Codex
   "containerEnv": {
