@@ -22,10 +22,6 @@ else
     echo "⚠️  Failed to pull MCP server image (may succeed on container start)"
 fi
 
-# install create-fastedge-app globally
-echo "📦 Installing create-fastedge-app..."
-npm install -g create-fastedge-app
-
 ## ADD ALL ONE TIME SETUP STEPS ABOVE THIS LINE ##
 
 # Create marker file
