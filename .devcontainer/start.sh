@@ -46,7 +46,7 @@ echo "The FastEdge MCP server signs in through the Gcore portal - no API key nee
 echo "When your AI agent needs your account it will ask you to open a new terminal"
 echo "and run: fastedge-login"
 echo ""
-echo "It shows a portal link: open it, choose the manual option and approve, then"
+echo "It shows a portal link: open it, approve, then"
 echo "paste the connect code at the prompt."
 echo ""
 echo "Never paste the connect code into the chat - it is your access token."
