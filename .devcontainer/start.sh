@@ -1,10 +1,6 @@
 #!/bin/bash
 # Interactive template selector for FastEdge Apps
 
-# TEMP until the fastedge-mcp-server release with the root-group fix: the workspace is owned by
-# vscode:root, and the current server refuses to start in session mode with gid 0.
-if [ "$(stat -c %g .)" = "0" ]; then sudo chgrp "$(id -g)" . || true; fi
-
 # Check if already initialized
 if [ -f ".devcontainer/.codespace-initialized" ]; then
     echo "╔════════════════════════════════════════════╗"
